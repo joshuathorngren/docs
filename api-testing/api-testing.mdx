@@ -1,0 +1,47 @@
+---
+title: 'Analyzing an API with Mayhem'
+description: 'Getting started with Mayhem's API analysis capabilities'
+icon: 'code'
+---
+
+## Analyzing APIs with Mayhem
+
+### What you'll need
+
+1. The `mapi` command line tool
+2. An OpenAPI spec, Postman Collection or HAR file
+3. A URL or file path to your API
+
+<Warn> Mayhem is designed to find ways to break your API.  Do not run it against production. Please.</Warn>
+
+### Basic analysis
+
+To perform a basic analysis of your API using Mayhem's default settings, run the following:
+
+`mapi run my-api 30 <specification> --url <url>`
+
+```
+To denote a `word` or `phrase` as code, enclose it in backticks (`).
+```
+
+### Code Block
+
+Use [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) by enclosing code in three backticks and follow the leading ticks with the programming language of your snippet to get syntax highlighting. Optionally, you can also write the name of your code after the programming language.
+
+```java HelloWorld.java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+````md
+```java HelloWorld.java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+````

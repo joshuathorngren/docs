@@ -52,7 +52,7 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
+        "api-testing",
         "quickstart",
         "development"
       ]
