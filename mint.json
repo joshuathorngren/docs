@@ -54,6 +54,8 @@
       "group": "Get Started",
       "pages": [
         "analysis/apitesting",
+        "analysis/codetesting",
+        "analysis/sbom",
         "quickstart",
         "development"
       ]
@@ -66,20 +68,6 @@
         "essentials/images",
         "essentials/settings",
         "essentials/navigation"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
       ]
     }
   ],
