@@ -28,7 +28,8 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "api-reference",
+      "openapi": "https://app.mayhem.security/api/v2/api-docs/json"
     }
   ],
   "anchors": [
